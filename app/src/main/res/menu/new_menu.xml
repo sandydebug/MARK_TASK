@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Your Profile" android:id="@+id/profile"
+        android:icon="@drawable/ic_verified_user_black_24dp"
+        ></item>
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always"
+        android:title="Add"></item>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        ></item>
+
+</menu>
