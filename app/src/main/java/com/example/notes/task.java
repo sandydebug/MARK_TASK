@@ -217,6 +217,7 @@ public class task extends AppCompatActivity {
 
         Map updateMap=new HashMap();
         updateMap.put("task","DONE");
+        updateMap.put("timestamp", ServerValue.TIMESTAMP);
         databaseReference.child(noteId).updateChildren(updateMap);
         FancyToast.makeText(task.this,"Task Completed!",FancyToast.LENGTH_SHORT,FancyToast.SUCCESS,true).show();
 
