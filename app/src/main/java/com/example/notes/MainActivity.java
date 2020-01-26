@@ -14,7 +14,7 @@ import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static int SPLASH_TIME_OUT =2000;
+    private static int SPLASH_TIME_OUT =1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,8 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView image = (ImageView) findViewById(R.id.imageView);
         TextView textview = (TextView)findViewById(R.id.textView5);
-        image.animate().alpha(0f).scaleX(1.5f).scaleY(1.5f).setDuration(2000);
+        image.animate().alpha(0f).scaleX(1.5f).scaleY(1.5f).setDuration(1500);
         textview.animate().alpha(5f).scaleX(1.5f).scaleY(1.5f).setDuration(1500);
+        
 
     }
 }
